@@ -1,0 +1,11 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "A custom URL shortener with an emphasis on human readability",
+  "main": "shortener.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aaron Vontell, Vontech Software, LLC",
+  "license": "ISC"
+}
