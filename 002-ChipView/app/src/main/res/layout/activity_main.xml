@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="org.vontech.chipviewexample.MainActivity">
+
+    <TextView
+        android:text="Full ChipView"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <org.vontech.chipview.ChipView
+        android:id="@+id/customChip"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:imageSrc="@drawable/profile"
+        app:text="My Custom ChipView!"/>
+
+    <TextView
+        android:text="ChipView w/o Remove (uses URL image)"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <org.vontech.chipview.ChipView
+        android:id="@+id/customChipTwo"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="My Custom ChipView!"/>
+
+    <TextView
+        android:text="ChipView w/o Image"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <org.vontech.chipview.ChipView
+        android:id="@+id/customChipThree"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="My Custom ChipView!"/>
+
+    <TextView
+        android:text="ChipView w/o Image or Remove"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <org.vontech.chipview.ChipView
+        android:id="@+id/customChipFour"
+        android:paddingBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text="My Custom ChipView!"/>
+
+
+</LinearLayout>
