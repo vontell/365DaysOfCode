@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Morrow</string>
+
+    <string name="action_clear">Delete all tasks</string>
+    <string name="action_today">Make all due today</string>
+    <string name="action_complete">Complete all</string>
+
+    <string name="new_dialog_title">New Task</string>
+    <string name="new_dialog_create">Create</string>
+    <string name="new_dialog_cancel">Cancel</string>
+    <string name="new_dialog_hint">What\'s your task?</string>
+
+    <string name="today_caption">TODAY</string>
+    <string name="tomorrow_caption">TOMORROW</string>
+    <string name="overmorrow_caption">OVERMORROW</string>
+    <string name="complete_caption">COMPLETE</string>
+
+    <string name="edit_dialog_title">Edit Task</string>
+    <string name="edit_dialog_create">Save</string>
+    <string name="edit_dialog_cancel">Cancel</string>
+
+
+</resources>
